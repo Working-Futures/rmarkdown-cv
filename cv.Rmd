@@ -1,16 +1,16 @@
 ---
 title: CV
-name: Dr. Dana
-surname: Calacci
-position: "Assistant Professor, Penn State University College of IST"
-address: "State College, PA"
-phone: +1 908 229 8992
+name: Dr. Jane
+surname: Smith
+position: "Assistant Professor, State University"
+address: "City, State"
+phone: +1 555 123 4567
 pronouns: she/her
-www: "dcalacci.net"
-email: "dana@dcalacci.net"
-github: dcalacci
+www: "example.net"
+email: "jane.smith@example.edu"
+github: janesmith
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I build participatory tools and evaluation methods that shift access toward communities, enabling them to investigate algorithmic systems, generate evidence of harm, and build collective power."
+aboutme: "My research focuses on ethical AI, algorithmic fairness, and the societal impacts of machine learning systems."
 header-includes:
   - \definecolor{headcolor}{HTML}{000000}
   - \usepackage{xcolor}
@@ -58,9 +58,9 @@ source("custom_hyndman.R")
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "PhD, Media Arts and Sciences", "2019-2023", "Massachusetts Institute of Technology", "Cambridge, MA",
-  "M.S., Media Arts and Sciences", "2016-2018", "Massachusetts Institute of Technology", "Cambridge, MA",
-  "B.S., Computer Science", "2011-2015", "Northeastern University", "Boston, MA"
+  "Ph.D., Computer Science", "2018-2022", "Research University", "City, State",
+  "M.S., Computer Science", "2016-2018", "State University", "City, State",
+  "B.S., Mathematics", "2012-2016", "Liberal Arts College", "City, State"
 ) %>%
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -70,10 +70,8 @@ tribble(
 ```{r}
 tribble(
   ~ Institution, ~ Year, ~ Department, ~ Title, 
-  "Penn State University", "2024-", "College of Information Sciences and Technology", "Assistant Professor",
-  "Penn State University", "2024-", "Institute for Computational and Data Sciences", "Co-Hire & Affiliate",
-  "Princeton University", "2023-2024", "Center for Information Technology Policy", "Postdoctoral Fellow",
-  "MIT Media Lab", "2023-", "Human Dynamics Group", "Research Affiliate"
+  "State University", "2023-", "Computer Science Department", "Assistant Professor",
+  "Research University", "2022-2023", "Center for AI Research", "Postdoctoral Fellow"
 ) %>% 
   detailed_entries(Institution, Year, Department, Title)
 ```
@@ -153,9 +151,8 @@ contributions %>%
 ```{r}
 tribble(
   ~Year, ~Title, ~Role, ~Funder,
-  "2025", "Mapping Language Model Failures through Community Experience: A Study of Multilingual Researchers", "Penn State Institute for Computational and Data Sciences Rising Researcher", "PI, (~$30,000 2y)",
-  "2025", "From Evaluation to Alignment: Toward Community-Aligned AI", "Penn State Institute for Computational and Data Sciences Faculty Upskilling Fellowship ($27,000, 1y)",  "PI, ($27,000, 1y)",
-  "2024", "Empowering Delivery Gig Workers with Data and Insights to Improve Health", "Robert Wood Johnson Foundation Pioneering Ideas (total $250,000, 3y)", "Key Personnel",
+  "2025", "AI Ethics Research Grant", "State University Research Fund", "PI, ($25,000, 2y)",
+  "2024", "Algorithmic Fairness Study", "Example Foundation", "Co-PI, ($50,000, 1y)"
 ) %>%
   publication_entries(Title, Year, Role, Funder, "", "", show_venue_short=FALSE)
 ```
@@ -165,8 +162,7 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Title, ~Role, ~Funder,
-  "2025", "From Evaluation to Alignment: Toward Community-Aligned AI", "Sloan Research Fellowship", "PI, $70,000",
-  "2025", "Gig Work and Health Inequalities: Evidence From the Food Delivery Labor Market", "National Institutes of Health (total $3,391,570 total, 5y)", "Co-PI (Subaward: $253,359)"
+  "2025", "Future AI Research Project", "Example Fellowship", "PI, $50,000"
 ) %>%
   publication_entries(Title, Year, Role, Funder, "", "", show_venue_short=FALSE)
 ```
@@ -176,9 +172,8 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Title, ~Role, ~Funder,
-  "2022", "The Worker's Observatory: Crowdsourced tools for Collective Audits of Algorithmic Systems in the Gig Economy", "Mozilla Technology Fund ($50,000)",  "Co-PI",
-  "2018", "SBIR Phase I: Positive Effects of Feedback and Intervention for Engagement in Online Learning", "National Science Foundation #1843391 ($223,090)", "Co-PI",
-  "2020", "SBIR Phase II: Using Intervention and Feedback to Improve Group Function In Online Contexts", "National Science Foundation #2026003 ($991,417)", "Key Personnel & Co-author",
+  "2022", "AI Ethics Tool Development", "Example Foundation ($40,000)", "Co-PI",
+  "2020", "Machine Learning Research Grant", "National Science Foundation ($200,000)", "Key Personnel"
 ) %>%
   publication_entries(Title, Year, Role, Funder, "", "", show_venue_short=FALSE)
 ```
@@ -206,8 +201,8 @@ contributions %>%
 ```{r}
 tribble(
   ~Year, ~Title, ~Where, ~Description,
-  "2025", "Community AI Development and Evaluation (IST 597)", "Penn State IST", "Graduate seminar on developing and evaluating AI systems with a community focus",
-  "2024", "DS 435 Data Ethics", "Penn State IST", "Required class for Data Science majors; redesigned from scratch with co-learning and peer evaluation"
+  "2024", "AI Ethics", "State University", "Graduate seminar on ethical AI development",
+  "2023", "Introduction to Machine Learning", "State University", "Undergraduate course on ML fundamentals"
 ) %>%
   detailed_entries(Title, Year, Where, "", c(Description))
 ```
@@ -221,9 +216,8 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Title, ~Authors, ~Venue,
-  "2025-26", "Tianqi Kou", "Toward a Feminist Conception of Replicability for Machine Learning Research", "Penn State IST",
-  "2028-29", "Brea Austin", "", "Penn State IST",
-  "2028-29", "Matt Viana", "", "Penn State IST"
+  "2024-", "Alex Chen", "Example Dissertation Topic", "State University",
+  "2025-", "Jordan Kim", "", "State University"
 ) %>%
   detailed_entries(Title, Year, Venue, Authors)
 ```
@@ -271,11 +265,8 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Title, ~Authors, ~Venue,
-  "2025-26", "Artificial Intelligence Hiring Committee", "", "Penn State IST",
-  "2024-25", "Privacy & Security Hiring Committee", "", "Penn State IST",
-  "2025", "Panelist, Women's History Month in STEM Event", "", "Penn State",
-  "2025", "Judge, Penn State IDEAMakers Startup Challenge", "", "Penn State",
-  "2025", "Panelist, LGBTQ+ In Tech", "", "Penn State"
+  "2024-25", "Faculty Search Committee", "", "State University",
+  "2024", "Department Service Committee", "", "State University"
 ) %>%
   detailed_entries(Title, Year, Venue, Authors)
 ```
@@ -294,9 +285,8 @@ contributions %>%
 ```{r}
 tribble(
   ~Year, ~Title, ~Authors, ~Venue,
-  "2020-", "WeClock", "Researcher In Residence", "Design, develop, and deploy worker-centric labor technology; advise on grant applications; run workshops with trade union leaders",
-  "2020", "NASA/JPL", "Media Artist", "Conceptualized and executed artistic projects investigating the epistemology of scientific research and visualization",
-  "2018-2019", "Riff Analytics", "Cofounder and Chief Research Scientist", "Led AI and data science pipeline, product architecture, and research designs; co-wrote successful NSF SBIR grant"
+  "2021-2022", "Tech Company", "Research Consultant", "Advised on AI ethics and fairness in product development",
+  "2019-2020", "Research Lab", "Research Assistant", "Conducted research on machine learning applications"
 ) %>%
   detailed_entries(Title, Year, Venue, Authors)
 ```

@@ -1,80 +1,14 @@
 Year,Title,Authors,Venue,VenueShort,Section,URL
-2025,"Salon on Algorithmic Wage Discrimination","Data & Society Public Tech Leadership Collaborative Salon Series","Organizer","",Organized Events,
-2025,"International Conference on Sustainable Work","Stockholm, Sweden","Conference Organizer","",Organized Events,
-2025,"Dead Zone of Accountability: Why Social Claims in Machine Learning Research Should Be Articulated and Defended","Tianqi Kou, Cindy Lin, D Calacci","Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",AIES,Refereed Article,https://ojs.aaai.org/index.php/AIES/article/view/36649
-2025,"Analyzing Movement and Work Patterns of Fragmented and Dispersed Home Care Workers using Multimodal Data","Hawi Humnessa Tolera, D Calacci, Joy Ming","Proceedings of the ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies",COMPASS,Refereed Article,https://doi.org/10.1145/3715335.3735459
-2025,"Rideshare Transparency: Translating Gig Worker Insights on AI Platform Design to Policy","Varun Rao, Samantha Dalal, Eesha Agarwal, D Calacci, Andrés Monroy-Hernandez","Proceedings of the ACM on Human-Computer Interaction",CSCW,Refereed Article,https://doi.org/10.1145/3711059
-2025,"QuaLLM: An LLM based Framework to Extract Quantitative Insights from Online Forums","Varun Rao, Eesha Agarwal, Samantha Dalal, D Calacci, Andrés Monroy-Hernandez","Proceedings of the North American Chapter of the Association for Computational Linguistics",NAACL,Refereed Article,https://doi.org/10.18653/v1/2025.findings-naacl.74
-2024,"Open e-commerce 1.0, five years of crowdsourced U.S. Amazon purchase histories with user demographics","Alex Berke, D Calacci, Robert Mahari, Takahiro Yabe, Kent Larson, Alex Pentland","Nature Scientific Data",Sci Data,Refereed Article,https://doi.org/10.1038/s41597-024-03329-6
-2024,"Insights from an experiment crowdsourcing data from thousands of US Amazon users: The importance of transparency, money, and data use","Alex Berke, Robert Mahari, Alex (Sandy) Pentland, Kent Larson, D Calacci","Proceedings of the ACM on Human-Computer Interaction",CSCW,Refereed Article,https://doi.org/10.1145/3687005
-2024,"As an AI Language Model, 'Yes I Would Recommend Calling the Police': Norm Inconsistency in LLM Decision-Making","Shomik Jain, D Calacci, Ashia Wilson","Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",AIES,Refereed Article,https://doi.org/10.1609/aies.v7i1.31665
-2023,"From Access to Understanding: Collective Data Governance for Workers","D Calacci, Jake Stein","European Labor Law Journal",ELLJ,Refereed Article,https://doi.org/10.1177/20319525231167981
-2023,"Building Dreams Beyond Labor: Worker Autonomy in the Age of AI","D Calacci","ACM Interactions",Interactions,Refereed Article,https://doi.org/10.1145/3626245
-2022,"Privacy Limitations Of Interest-based Advertising On The Web: A Post-mortem Empirical Analysis Of Google's FLoC","Alex Berke, D Calacci","ACM Conference on Computer and Communications Security",CCS,Refereed Article,https://doi.org/10.1145/3548606.3560626
-2022,"Bargaining With the Black-Box: Designing and Deploying Worker-Centric Tools to Audit Algorithmic Management","D Calacci, Alex (Sandy) Pentland","ACM Conference on Computer-Supported Cooperative Work",CSCW,Refereed Article,https://doi.org/10.1145/3570601
-2022,"The Cop in Your Neighbor's Doorbell: Amazon Ring and the Spread of Participatory Mass Surveillance","D Calacci, Jeffrey Shen, Alex (Sandy) Pentland","ACM Conference on Computer-Supported Cooperative Work",CSCW,Refereed Article,https://doi.org/10.1145/3555125
-2022,"Organizing in the End of Employment: Information Sharing, Data Stewardship, and Digital Workerism","D Calacci","Symposium on Human-Computer Interaction for Work",CHIWORK,Refereed Article,https://doi.org/10.1145/3533406.3533424
-2021,"Mobility patterns are associated with experienced income segregation in large US cities","Esteban Moro, D Calacci, Xiaowen Dong, Alex (Sandy) Pentland","Nature Communications",Nat Commun,Refereed Article,https://doi.org/10.1038/s41467-021-24899-8
-2020,"Leveraging Communication Topologies Between Learning Agents in Deep Reinforcement Learning","Dhaval Adjodah, D Calacci, Abhimanyu Dubey, Anirudh Goyal, P.M. Krafft, Esteban Moro, Alex Pentland","International Conference on Autonomous Agents and Multi-Agent Systems",AAMAS,Refereed Article,https://doi.org/10.48550/arXiv.1902.06740
-2018,"Patterns of Interaction Predict Social Role in Online Learning","Cici Sun, D Calacci, Alex (Sandy) Pentland","International Conference on Social Computing, Behavioral-Cultural Modeling and Prediction",SBP-BRiMS,Refereed Article,https://sbp-brims.org/2018/proceedings/papers/latebreaking_papers/LB_11.pdf
-2018,"Rhythm: A unified measurement platform for human organizations","Oren Lederman, Akshay Mohan, D Calacci, Alex (Sandy) Pentland","IEEE MultiMedia",IEEE MM,Refereed Article,https://doi.org/10.1109/MMUL.2018.112135958
-2015,"A frame of mind: Using statistical models for detection of framing and agenda setting campaigns","Oren Tsur, D Calacci, David Lazer","Proceedings of the Annual Meeting of the Association for Computational Linguistics",ACL,Refereed Article,https://aclanthology.org/P15-1157.pdf
-2026,"Surveillance, Spacing, Screaming and Scabbing: How Digital Technology Facilitates Union Busting","Frederick Reiber, Nathan Kim, Allison McDonald, D Calacci","ACM Conference on Human Factors in Computing Systems",CHI,Under Review,
-2026,"Extended AI Interactions Shape Sycophancy and Perspective Mimesis","Shomik Jain, Charlotte Park, Matt Viana, Ashia Wilson, D Calacci","ACM Conference on Human Factors in Computing Systems",CHI,Under Review,
-2026,"Organizing in the Digital Age: Understanding Community, Challenges, and Consequences in Digitally facilitated Labor Organizing","Frederick Reiber, Alishah Chator, D Calacci, Allison McDonald","ACM Conference on Computer-Supported Cooperative Work",CSCW,Under Review,
-2026,"FareShare: A Tool for Labor Organizers to Estimate Lost Wages and Contest Arbitrary AI and Algorithmic Deactivations","Varun Rao, Samantha Dalal, Andrew Schwartz, Amna Liaqat, D Calacci, Andrés Monroy-Hernandez","ACM Conference on Computer-Supported Cooperative Work",CSCW,Under Review,https://doi.org/10.48550/arXiv.2508.08739
-2026,"FairFare: A Tool for Crowdsourcing Rideshare Data to Empower Organizers","D Calacci, Varun Rao, Samantha Dalal, Catherine Di, Kok Wei Pua, Andrew Schwartz, Danny Spitzberg, Andrés Monroy-Hernandez","ACM Conference on Human Factors in Computing Systems",CHI,Refereed Article,https://doi.org/10.48550/arXiv.2502.11273
-2024,"The Gig Workers Who Fought an Algorithm: When Their Pay Suddenly Dropped, Shipt's Delivery Drivers Dug into the Data","D Calacci","IEEE Spectrum",IEEE Spectrum,Public Writing,https://perma.cc/NA3X-H4LM
-2022,"Google Needs to Unlock Its Ad Privacy Black Box","D Calacci","Gizmodo",Gizmodo,Public Writing,https://perma.cc/RQT6-QLSK
-2020,"Location Tracking to Fight Coronavirus is Dangerous and Possibly Pointless","D Calacci","Gizmodo",Gizmodo,Public Writing,https://perma.cc/BW98-W7MZ
-2022,"How to Bargain with a Black Box: Auditing an Algorithmic Pay Change With a Community Led Audit","D Calacci, Willy Solis, Drew Ambrogi, Vanessa Bain, Danny Spitzberg","ACM Conference on Fairness, Accountability, and Transparency",FAccT,Keynote,
-2025,"AI. Culture. Democracy. Now","Georgia Tech, Atlanta, GA","Invited Panelist, AIAI Symposium","",Invited Talk,
-2025,"How Algorithms Short-Circuit Occupational Health: Research and Engagement Approaches","CUNY School of Public Health, New York, NY","Guest Lecture, AI in Public Health: Opportunities, Applications, and Concerns","",Invited Talk,
-2025,"How iTunes Helped Make Surveillance Wages: Platforms, Personalization, and Wages in the Inference Economy",Penn State University,"Penn State Center for Socially Responsible AI Speaker Series","",Internal Talk,
-2024,"Bargaining With the Black Box",Penn State University,"Guest Lecture, DS435","",Internal Talk,
-2025,"Surveillance Wages","Penn State University", "Guest Lecture, DS435","",Internal Talk,
-2025,"Platforms, Personalization, and Wages in the Inference Economy","Brown University, Providence, RI", "Guest Lecture, Introduction to Sociotechnical Systems","",Invited Talk,
-2024,"Developing tools for crowdsourcing worker data in collaboration with organizers","CSCW, San Jose, Costa Rica","Workshop on Worker Data Collectives at CSCW","",Invited Talk,
-2024,"Algorithms as Labor Conditions? Automation, Management, and Activism in the AI Workplace","Google DeepMind","Google DeepMind Research Talks","",Invited Talk,
-2023,"Why Data Rights Should be Labor Rights: Data Protection and AI Regulation for Gig Workers and Beyond","Princeton University, Princeton, NJ","Princeton Center for Information Technology Policy Seminar","",Invited Talk,
-2023,"Why Data Rights Should be Labor Rights: Data Protection and AI Regulation at Work","University of Pennsylvania, Philadelphia, PA","Price Lab for Digital Humanities Seminar","",Invited Talk,
-2023,"Centering Communities in Research and Technology Design","Princeton University, Princeton, NJ","Princeton University Digital Investigators Conference","",Invited Talk,
-2023,"Big Data & Society 2023 Colloquium: Data & Social Justice","","Big Data & Society",BD&S,Invited Talk,
-2023,"Worker surveillance fireside chat","Federal Trade Commission, virtual","with Veena Dubal, Wilneida Negrón and D Calacci","",Invited Talk,
-2022,"Federal Trade Commission PrivacyCon: Why Worker Data Regulation Is About More Than Privacy","Federal Trade Commission, virtual","Federal Trade Commission Panel on Commercial Surveillance","",Invited Talk,
-2022,"How to Bargain with a Black Box: Hacking our Way Towards Data-Driven Organizing","Hackers On Planet Earth, Queens, NY",Hackers On Planet Earth,"",Invited Talk,
-2021,"Ring Around the Neighborhood: Spatial Analysis of Doorbell Camera Use","University of Pittsburgh, virtual","Pitt Computational Social Science Seminar","",Invited Talk,
-2020,"One Ring To Surveil Them All: Hacking Amazon Ring to Map Neighborhood Surveillance","Data & Society, virtual","Data & Society Internal Speaker Series","",Invited Talk,
-2025,"Data Infrastructures to Turn Workplace Rights into Access","D Calacci","Conference on Sustainable Work, Stockholm, Sweden",CSW,Conference Talk,
-2025,"Measuring risks inherent to our digital economies using Amazon purchase histories from US consumers","Alex Berke, Kent Larson, Alex Pentland, D Calacci","Workshop on Hot Topics in Privacy Enhancing Technologies",HotPETS,Conference Talk,
-2025,"Evaluating Amazon Effects and the Limited Impact of COVID-19 With Purchases Crowdsourced from US Consumers","Alex Berke, D Calacci, Alex Pentland, Kent Larson","International Conference on Computational Social Science",IC2S2,Poster,
-2024,"Data & Society Public Tech Leadership Collaborative Salon on Algorithmic Wage Discrimination","Co-organizer with Charley Johnson, Minsu Longiaru, Wilneida Negrón, Aiha Nguyen","Data & Society",D&S,Workshop,
-2024,"Worker Data Collectives as a means to Improve Accountability, Combat Surveillance and Reduce Inequalities","D Calacci","CSCW Workshop: Data Cooperatives",CSCW,Workshop Keynote,
-2023,"FairFare: Towards crowdsourced algorithmic inquiry in the gig economy","D Calacci, Samantha Dalal, Varun Rao, Danny Spitzberg, Andrés Monroy-Hernandez","CSCW Workshop: Back to 'Back to Labor'",CSCW,Workshop Talk,
-2022,"Fairer Working Futures: Co-Developing a Roadmap For Labor Centric FAccT Research","D Calacci, Willy Solis, Wilneida Negrón","ACM Conference on Fairness, Accountability, and Transparency CRAFT Session",FAccT,Workshop,
-2020,"One Ring To Surveil Them All: Hacking Amazon Ring to Map Neighborhood Surveillance","D Calacci","Hackers On Planet Earth Conference",HOPE,Conference Talk,
-2020,"Ring Around the Neighborhood: Spatial Analysis of Doorbell Camera Use","D Calacci, Jeffrey Shen, Alex (Sandy) Pentland","International Conference on Computational Social Science",IC2S2,Conference Talk,
-2020,"Far Right Forum Network and LDA analysis","D Calacci, Aliah Braley, Dhaval Adjodah, Alex (Sandy) Pentland","International Conference on Computational Social Science",IC2S2,Poster,
-2019,"Find My {}: Location Data, Surveillance, and the Commons","D Calacci, Becca Ricks, Nasser Eledroos","MozFest Privacy & Security",MozFest,Workshop,
-2019,"The tradeoff between the utility and risk of location data and implications for public good","D Calacci, Alex Berke, Kent Larson, Alex (Sandy) Pentland","Connected Life Conference, Oxford/LSE","",Conference Talk,
-2018,"Economical Segregation of Encounter Networks in Cities","Esteban Moro, D Calacci, Xiaowen Dong, Alex (Sandy) Pentland","Network Science Society Conference",NetSci,Conference Talk,
-2018,"Optimizing Inter Agent Communication Networks for Improved Deep Reinforcement Learning","Dhaval Adjodah, D Calacci, Yan Leng, Abhimanyu Dubey, Peter Krafft, Esteban Moro, Alex Sandy Pentland","Network Science Society Conference",NetSci,Conference Talk,
-2017,"Improved Learning in Evolution Strategies via Sparser Inter Agent Network Topologies","Dhaval Adjodah, D Calacci, Yan Leng, Peter Krafft, Esteban Moro, Alex 'Sandy' Pentland","Conference on Neural Information Processing Systems",NeurIPS,Conference Talk,
-2017,"Exploring inter group social contact using high resolution geospatial data","D Calacci, Esteban Moro, Alex (Sandy) Pentland","Conference on Complex Systems",CCS,Conference Talk,
-2016,"Breakout: An Open Measurement and Intervention Tool For Distributed Peer Learning Groups","D Calacci, Oren Lederman, David Shrier, Alex (Sandy) Pentland","International Conference on Social Computing, Behavioral-Cultural Modeling and Prediction",SBP-BRiMS,Conference Talk,
-2014,"As Long as You Name My Name Right: Social Circles and Social Sentiment in the Hollywood Hearings","D Calacci, Oren Tsur, David Lazer","ACL Joint Workshop on Social Dynamics and Personal Attributes in Social Media",ACL,Workshop Paper,
-2015,"Automatic Discovery of Partisan Campaigns, Agenda Setting, and Political Spin in Press Releases","Oren Tsur, D Calacci, David Lazer","Computational Journalism Conference, Columbia University",CompJ,Poster,
-2014,"Separated by a common language? Using topic models in reconstructing networks of political influence and cooperation","Oren Tsur, D Calacci, David Lazer","Political Networks Conference",PolNet,Conference Talk,
-2014,"What you know and who you know: discussion networks and political knowledge","Katherine Ognyanova, D Calacci, David Lazer, Michael Neblo, William Minozzi, Brian Rubineau","Political Networks Conference",PolNet,Poster,
-2024,"Study: AI could lead to inconsistent outcomes in home surveillance","D Calacci (Interview)","MIT News",MIT News,Media Coverage,https://perma.cc/8PPG-A4RG
-2024,"Algorithmic wage discrimination: Not just for gig workers","D Calacci (Interview)","The Register",The Register,Media Coverage,https://perma.cc/JW4Z-4L3Y
-2024,"Why killer AI is such an alluring horror villain","D Calacci (Interview)","The Washington Post",WaPo,Media Coverage,https://perma.cc/NJ5A-P5JQ
-2023,"IRL: Online Life is Real Life","D Calacci (Podcast)","Mozilla",Mozilla,Media Coverage,https://perma.cc/E6UU-P8ZW
-2022,"RadioLab: Gigaverse","D Calacci (Featured Interview)","NPR WNYC",RadioLab,Media Coverage,https://perma.cc/5SG3-A8C3
-2022,"Mozilla Internet Health Report","D Calacci (Podcast)","Mozilla",Mozilla,Media Coverage,https://perma.cc/RJ8Y-XK2J
-2022,"Google's FloC flopped, boffins claim, because it failed to provide promised privacy","","The Register",The Register,Media Coverage,https://perma.cc/FN9V-YCEK
-2020,"Some Shipt workers report seeing lower pay under new effort-based model","","The Verge",The Verge,Media Coverage,https://perma.cc/RX2K-E427
-2020,"Shipt's 'Effort-Based' Model Is Cutting Pay for 40% of Workers, Study Shows","","Gizmodo",Gizmodo,Media Coverage,https://perma.cc/A4EY-TSYN
-2019,"Ring's Hidden Data Let Us Map Amazon's Sprawling Home Surveillance Network","","Gizmodo",Gizmodo,Media Coverage,https://perma.cc/L7QS-34VK
-2019,"The 'Atlas of Inequality' Maps Micro-Level Segregation","","Bloomberg",Bloomberg,Media Coverage,https://perma.cc/4L59-44ZS
-2019,"'Atlas Of Inequality' Shows Income Segregation Around Boston","","WBUR",WBUR,Media Coverage,https://perma.cc/G4WR-S76N
+2025,"Example Conference Workshop","Example Organization","Workshop Organizer","",Organized Events,
+2025,"Machine Learning Ethics in Practice","A Researcher, B Scholar, J Smith","Proceedings of Example Conference",Example,Refereed Article,https://example.com/paper1
+2024,"Algorithmic Fairness: A Survey","J Smith, C Author","Journal of Example Studies",JES,Refereed Article,https://example.com/paper2
+2024,"Data Privacy in the Digital Age","J Smith","Example Journal",EJ,Refereed Article,https://example.com/paper3
+2023,"Understanding Bias in AI Systems","J Smith, D Collaborator","Conference on Example Topics",CET,Refereed Article,https://example.com/paper4
+2026,"Future Directions in AI Ethics","E Researcher, J Smith","Example Conference",EC,Under Review,
+2024,"The Importance of Ethical AI","J Smith","Tech Magazine",Tech Mag,Public Writing,https://example.com/article1
+2023,"AI and Society","J Smith","News Outlet",News,Public Writing,https://example.com/article2
+2024,"Ethics in Machine Learning","State University","Guest Lecture, CS101","",Invited Talk,
+2023,"AI Fairness Research","State University","Department Seminar","",Internal Talk,
+2024,"Ethical AI Design","J Smith","Example Conference, City, Country",EC,Conference Talk,
+2023,"Bias Detection Methods","J Smith, F Colleague","Workshop on Example Topics",WET,Workshop Talk,
+2024,"AI Ethics Interview","J Smith (Interview)","Example News",Example News,Media Coverage,https://example.com/interview1
