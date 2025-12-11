@@ -1,0 +1,278 @@
+---
+title: CV
+name: Dr. Dana
+surname: Calacci
+position: "Assistant Professor, Penn State University College of IST"
+address: "State College, PA"
+phone: +1 908 229 8992
+pronouns: she/her
+www: "dcalacci.net"
+email: "dana@dcalacci.net"
+github: dcalacci
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I build participatory tools and evaluation methods that shift access toward communities, enabling them to investigate algorithmic systems, generate evidence of harm, and build collective power."
+header-includes:
+  - \definecolor{headcolor}{HTML}{000000}
+  - \usepackage{xcolor}
+output:
+  vitae::hyndman:
+    latex_engine: pdflatex
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+source("custom_hyndman.R")
+```
+
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD, Media Arts and Sciences", "2019-2023", "Massachusetts Institute of Technology", "Cambridge, MA",
+  "M.S., Media Arts and Sciences", "2016-2018", "Massachusetts Institute of Technology", "Cambridge, MA",
+  "B.S., Computer Science", "2011-2015", "Northeastern University", "Boston, MA"
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Appointments
+
+```{r}
+tribble(
+  ~ Institution, ~ Year, ~ Department, ~ Title, 
+  "Penn State University", "2024-", "College of Information Sciences and Technology", "Assistant Professor",
+  "Penn State University", "2024-", "Institute for Computational and Data Sciences", "Co-Hire & Affiliate",
+  "Princeton University", "2023-2024", "Center for Information Technology Policy", "Postdoctoral Fellow",
+  "MIT Media Lab", "2023-", "Human Dynamics Group", "Research Affiliate"
+) %>% 
+  detailed_entries(Institution, Year, Department, Title)
+```
+
+# Refereed Articles
+```{r, hidden=TRUE}
+contributions <- read.csv('contributions.csv') %>%
+  tibble()
+```
+
+```{r}
+contributions %>%
+  filter(Section == 'Refereed Article') %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL)
+```
+
+## Under Review
+
+```{r}
+contributions %>%
+  filter(Section == 'Under Review') %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL)
+```
+
+## Selected Other Publications
+
+```{r}
+contributions %>%
+  filter(Section == 'Public Writing') %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL, show_venue_short = FALSE)
+```
+
+
+# Conference & Workshop Participation
+
+## Keynotes
+
+```{r}
+contributions %>%
+  filter(Section == 'Keynote') %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL)
+```
+
+## Organizer
+```{r}
+contributions %>%
+  filter(Section == 'Organized Events') %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL, show_venue_short = FALSE)
+```
+
+## Talks
+```{r}
+contributions %>%
+  filter(Section %in% c('Conference Talk')) %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL, show_venue_short = TRUE)
+```
+
+## Posters
+```{r}
+contributions %>%
+  filter(Section %in% c('Poster')) %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL, show_venue_short = TRUE)
+```
+
+
+# Grants 
+
+## Current
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Role, ~Funder,
+  "2025", "Mapping Language Model Failures through Community Experience: A Study of Multilingual Researchers", "Penn State Institute for Computational and Data Sciences Rising Researcher", "PI, (~$30,000 2y)",
+  "2025", "From Evaluation to Alignment: Toward Community-Aligned AI", "Penn State Institute for Computational and Data Sciences Faculty Upskilling Fellowship ($27,000, 1y)",  "PI, ($27,000, 1y)",
+  "2024", "Empowering Delivery Gig Workers with Data and Insights to Improve Health", "Robert Wood Johnson Foundation Pioneering Ideas (total $250,000, 3y)", "Key Personnel",
+) %>%
+  publication_entries(Title, Year, Role, Funder, "", "", show_venue_short=FALSE)
+```
+
+## Submitted & Under Review
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Role, ~Funder,
+  "2025", "From Evaluation to Alignment: Toward Community-Aligned AI", "Sloan Research Fellowship", "PI, $70,000",
+  "2025", "Gig Work and Health Inequalities: Evidence From the Food Delivery Labor Market", "National Institutes of Health (total $3,391,570 total, 5y)", "Co-PI (Subaward: $253,359)"
+) %>%
+  publication_entries(Title, Year, Role, Funder, "", "", show_venue_short=FALSE)
+```
+
+## Completed
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Role, ~Funder,
+  "2022", "The Worker's Observatory: Crowdsourced tools for Collective Audits of Algorithmic Systems in the Gig Economy", "Mozilla Technology Fund ($50,000)",  "Co-PI",
+  "2018", "SBIR Phase I: Positive Effects of Feedback and Intervention for Engagement in Online Learning", "National Science Foundation #1843391 ($223,090)", "Co-PI",
+  "2020", "SBIR Phase II: Using Intervention and Feedback to Improve Group Function In Online Contexts", "National Science Foundation #2026003 ($991,417)", "Key Personnel & Co-author",
+) %>%
+  publication_entries(Title, Year, Role, Funder, "", "", show_venue_short=FALSE)
+```
+
+
+# Invited Talks
+
+```{r}
+contributions %>%
+  filter(Section == 'Invited Talk') %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL, show_venue_short = FALSE)
+```
+
+# Campus & Departmental Talks
+```{r}
+contributions %>%
+  filter(Section == 'Internal Talk') %>%
+  arrange(desc(Year)) %>%
+  publication_entries(Title, Year, Authors, Venue, VenueShort, URL, show_venue_short = FALSE)
+```
+
+# Teaching Experience
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Where, ~Description,
+  "2025", "Community AI Development and Evaluation (IST 597)", "Penn State IST", "Graduate seminar on developing and evaluating AI systems with a community focus",
+  "2024", "DS 435 Data Ethics", "Penn State IST", "Required class for Data Science majors; redesigned from scratch with co-learning and peer evaluation"
+) %>%
+  detailed_entries(Title, Year, Where, "", c(Description))
+```
+
+# Student Advising and Mentorship
+
+
+
+## Direct Advisor
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Authors, ~Venue,
+  "2025-26", "Tianqi Kou", "Toward a Feminist Conception of Replicability for Machine Learning Research", "Penn State IST",
+  "2028-29", "Brea Austin", "", "Penn State IST",
+  "2028-29", "Matt Viana", "", "Penn State IST"
+) %>%
+  detailed_entries(Title, Year, Venue, Authors)
+```
+
+## Committee Membership
+````{r}
+students <- read.csv("students.csv")
+
+students %>%
+  filter(Type == "Committee") %>%
+  arrange(desc(Year), Institution) %>%
+  detailed_entries(Name, Year, Institution, Notes)
+````
+
+## Mentorship
+````{r}
+students %>%
+  filter(Type == "Mentorship") %>%
+  arrange(desc(Year)) %>%
+  detailed_entries(Name, Year, Institution, Notes)
+````
+
+## Undergraduate Mentorship & Advising
+```{r}
+students %>%
+  filter(Type == "Undergraduate") %>%
+  arrange(desc(Year)) %>%
+  detailed_entries(Name, Year, Institution, Notes)
+```
+
+
+# Professional Service
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Authors, ~Venue,
+  "", "CHI, CSCW, (e)CSCW, FAccT, Big Data & Society, SBP-BRiMS, PLOS-One, Nature", "Reviewer", "",
+  "", "FAccT", "AC", "",
+) %>%
+  detailed_entries(Title, Year, Venue, Authors)
+```
+
+# University Service
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Authors, ~Venue,
+  "2025-26", "Artificial Intelligence Hiring Committee", "", "Penn State IST",
+  "2024-25", "Privacy & Security Hiring Committee", "", "Penn State IST",
+  "2025", "Panelist, Women's History Month in STEM Event", "", "Penn State",
+  "2025", "Judge, Penn State IDEAMakers Startup Challenge", "", "Penn State",
+  "2025", "Panelist, LGBTQ+ In Tech", "", "Penn State"
+) %>%
+  detailed_entries(Title, Year, Venue, Authors)
+```
+
+# Selected Media Coverage
+
+```{r}
+contributions %>%
+  filter(Section %in% c('Media Coverage')) %>%
+  arrange(desc(Year)) %>%
+  media_entries(Title, Year, Venue, URL)
+```
+
+# Other Professional Experience
+
+```{r}
+tribble(
+  ~Year, ~Title, ~Authors, ~Venue,
+  "2020-", "WeClock", "Researcher In Residence", "Design, develop, and deploy worker-centric labor technology; advise on grant applications; run workshops with trade union leaders",
+  "2020", "NASA/JPL", "Media Artist", "Conceptualized and executed artistic projects investigating the epistemology of scientific research and visualization",
+  "2018-2019", "Riff Analytics", "Cofounder and Chief Research Scientist", "Led AI and data science pipeline, product architecture, and research designs; co-wrote successful NSF SBIR grant"
+) %>%
+  detailed_entries(Title, Year, Venue, Authors)
+```
