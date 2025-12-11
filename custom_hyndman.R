@@ -19,8 +19,27 @@ escape_latex <- function(x) {
   x
 }
 
+# Helper function to get surname from YAML metadata
+get_surname <- function() {
+  # Get surname from knitr options (set in setup chunk from YAML metadata)
+  surname <- knitr::opts_knit$get("cv_surname")
+  if (!is.null(surname) && surname != "") {
+    return(surname)
+  }
+  # If not found, return NULL (will skip bolding)
+  return(NULL)
+}
+
 # Helper function to bold a specific name in author lists
-bold_name <- function(author_string, name_to_bold = "Calacci") {
+bold_name <- function(author_string, name_to_bold = NULL) {
+  # Get surname from metadata if not provided
+  if (is.null(name_to_bold)) {
+    name_to_bold <- get_surname()
+  }
+  # If still no name, return original string
+  if (is.null(name_to_bold) || name_to_bold == "") {
+    return(author_string)
+  }
   # Match "D Calacci", "D. Calacci", "Dana Calacci" etc
   # Use \\1\\2 to reference the captured groups
   pattern <- paste0("(([A-Z]\\.?\\s+)?", name_to_bold, ")")

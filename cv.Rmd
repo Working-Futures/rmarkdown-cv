@@ -25,6 +25,30 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 library(tibble)
 library(dplyr)
+# Store surname from YAML metadata for use in custom functions
+# Parse YAML front matter to extract surname
+surname <- NULL
+if (requireNamespace("yaml", quietly = TRUE)) {
+  tryCatch({
+    # Read the current Rmd file and parse YAML front matter
+    input_file <- knitr::current_input()
+    if (!is.null(input_file) && file.exists(input_file)) {
+      lines <- readLines(input_file)
+      yaml_end <- grep("^---\\s*$", lines)[2]
+      if (!is.na(yaml_end) && yaml_end > 1) {
+        yaml_text <- paste(lines[1:yaml_end], collapse = "\n")
+        meta <- yaml::yaml.load(yaml_text)
+        if (!is.null(meta$surname)) {
+          surname <- meta$surname
+        }
+      }
+    }
+  }, error = function(e) {
+    # If parsing fails, surname will remain NULL
+  })
+}
+# Store surname in knitr options for use in custom functions
+knitr::opts_knit$set(cv_surname = surname)
 source("custom_hyndman.R")
 ```
 
