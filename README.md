@@ -8,21 +8,21 @@ An RMarkdown CV template to keep an up-to-date academic CV that uses a single CS
 
 To edit your CV, just add and edit `contributions.csv`. This allows you to keep your CV updated through code:
 
-| Year | Title | Authors                             | Venue                            | VenueShort                        | Section      | URL              |                                |
-|------|-------|-------------------------------------|----------------------------------|-----------------------------------|--------------|------------------|--------------------------------|
-|      | 2025  | Example Conference Workshop         | Example Organization             | Workshop Organizer                |              | Organized Events |                                |
-|      | 2025  | Machine Learning Ethics in Practice | A Researcher, B Scholar, J Smith | Proceedings of Example Conference | Example      | Refereed Article | https://example.com/paper1     |
-|      | 2024  | Algorithmic Fairness: A Survey      | J Smith, C Author                | Journal of Example Studies        | JES          | Refereed Article | https://example.com/paper2     |
-|      | 2024  | Data Privacy in the Digital Age     | J Smith                          | Example Journal                   | EJ           | Refereed Article | https://example.com/paper3     |
-|      | 2023  | Understanding Bias in AI Systems    | J Smith, D Collaborator          | Conference on Example Topics      | CET          | Refereed Article | https://example.com/paper4     |
-|      | 2026  | Future Directions in AI Ethics      | E Researcher, J Smith            | Example Conference                | EC           | Under Review     |                                |
-|      | 2024  | The Importance of Ethical AI        | J Smith                          | Tech Magazine                     | Tech Mag     | Public Writing   | https://example.com/article1   |
-|      | 2023  | AI and Society                      | J Smith                          | News Outlet                       | News         | Public Writing   | https://example.com/article2   |
-|      | 2024  | Ethics in Machine Learning          | State University                 | Guest Lecture, CS101              |              | Invited Talk     |                                |
-|      | 2023  | AI Fairness Research                | State University                 | Department Seminar                |              | Internal Talk    |                                |
-|      | 2024  | Ethical AI Design                   | J Smith                          | Example Conference, City, Country | EC           | Conference Talk  |                                |
-|      | 2023  | Bias Detection Methods              | J Smith, F Colleague             | Workshop on Example Topics        | WET          | Workshop Talk    |                                |
-|      | 2024  | AI Ethics Interview                 | J Smith (Interview)              | Example News                      | Example News | Media Coverage   | https://example.com/interview1 |
+| Year | Title                               | Authors                          | Venue                             | VenueShort   | Section          | URL                            |
+|------|-------------------------------------|----------------------------------|-----------------------------------|--------------|------------------|--------------------------------|
+| 2025 | Example Conference Workshop         | Example Organization             | Workshop Organizer                |              | Organized Events |                                |
+| 2025 | Machine Learning Ethics in Practice | A Researcher, B Scholar, J Smith | Proceedings of Example Conference | Example      | Refereed Article | https://example.com/paper1     |
+| 2024 | Algorithmic Fairness: A Survey      | J Smith, C Author                | Journal of Example Studies        | JES          | Refereed Article | https://example.com/paper2     |
+| 2024 | Data Privacy in the Digital Age     | J Smith                          | Example Journal                   | EJ           | Refereed Article | https://example.com/paper3     |
+| 2023 | Understanding Bias in AI Systems    | J Smith, D Collaborator          | Conference on Example Topics      | CET          | Refereed Article | https://example.com/paper4     |
+| 2026 | Future Directions in AI Ethics      | E Researcher, J Smith            | Example Conference                | EC           | Under Review     |                                |
+| 2024 | The Importance of Ethical AI        | J Smith                          | Tech Magazine                     | Tech Mag     | Public Writing   | https://example.com/article1   |
+| 2023 | AI and Society                      | J Smith                          | News Outlet                       | News         | Public Writing   | https://example.com/article2   |
+| 2024 | Ethics in Machine Learning          | State University                 | Guest Lecture, CS101              |              | Invited Talk     |                                |
+| 2023 | AI Fairness Research                | State University                 | Department Seminar                |              | Internal Talk    |                                |
+| 2024 | Ethical AI Design                   | J Smith                          | Example Conference, City, Country | EC           | Conference Talk  |                                |
+| 2023 | Bias Detection Methods              | J Smith, F Colleague             | Workshop on Example Topics        | WET          | Workshop Talk    |                                |
+| 2024 | AI Ethics Interview                 | J Smith (Interview)              | Example News                      | Example News | Media Coverage   | https://example.com/interview1 |
 
 ## Installation
 
