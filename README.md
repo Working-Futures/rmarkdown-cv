@@ -143,31 +143,8 @@ tribble(
 
 ### Removing Sections
 
-**If you don't have relevant information for a section, delete the entire section** (including the section header, any subsections, and all associated R code chunks). For example, if you don't have any grants, delete:
+**If you don't have relevant information for a section, delete the entire section** (including the section header, any subsections, and all associated R code chunks).
 
-```markdown
-# Grants 
-
-## Current
-
-```{r}
-...
-```
-
-## Submitted & Under Review
-
-```{r}
-...
-```
-
-## Completed
-
-```{r}
-...
-```
-```
-
-Simply remove all of this content from your `cv.Rmd` file.
 
 ### Adding New Sections
 
